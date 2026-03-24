@@ -24,6 +24,8 @@ export const page = defineType({
       type: 'array',
       of: [
         { type: 'heroSection' },
+        { type: 'heroSliderSection' },
+        { type: 'logoGridSection' },
         { type: 'textSection' },
       ],
     }),
